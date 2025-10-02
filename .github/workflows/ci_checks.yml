@@ -28,5 +28,5 @@ jobs:
         fetch-depth: 0
 
     - name: Build the container
-      run: make build
+      run: docker build . -t wcfc-integration-testing
 
